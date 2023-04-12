@@ -1,0 +1,32 @@
+.checkmark {
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  list-todo{
+    display: block;
+    margin-left: 10px 5px;
+  }
+  li{
+    margin:5px 5px;
+  list-style-type: none;
+  }
+  .btn-onclick button{
+    margin-top: 20px;
+    background-color: blue;
+    color: #eee;
+    margin-left: 5px;
+    border-radius: 5px;
+  }
+  .btn-onclick button:hover{
+    background-color: green;
+    height: 30px;
+  }
+  .complete{
+    text-decoration: line-through;
+  }
